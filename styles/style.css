@@ -541,4 +541,56 @@ button {
   margin: 0 auto;
   margin-top: 80px;
   text-transform: uppercase;
+}
+
+.footer {
+  background-color: black;
+  color: #fff;
+}
+.footer h2 {
+  font-size: 22px;
+  margin-top: 60px;
+}
+.footer h3 {
+  font-size: 18px;
+  margin-top: 60px;
+  color: #F5F5F5;
+  opacity: 0.6;
+  text-transform: uppercase;
+}
+.footer ul {
+  list-style: none;
+}
+.footer ul a {
+  display: inline-block;
+  text-decoration: none;
+  color: #F5F5F5;
+  padding: 7px 0px;
+  margin: 1px 0px;
+}
+.footer__top {
+  display: flex;
+  gap: 150px;
+  padding: 20px 0px 100px;
+  border-bottom: 2px solid #424242;
+}
+.footer__top-nav ul {
+  margin-top: 125px;
+}
+.footer__top-nav_first ul {
+  margin-top: 40px;
+}
+.footer__main {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__main-left {
+  display: flex;
+  gap: 90px;
+}
+.footer__main-right img {
+  display: inline-block;
+  margin-top: 40px;
+  margin-right: 16px;
+  opacity: 0.6;
 }/*# sourceMappingURL=style.css.map */

@@ -567,3 +567,65 @@ button {
     }
 }
 // End Section-bottom
+
+// Start Footer
+.footer{
+  background-color: black;
+  color: #fff;
+  h2{
+    font-size: 22px;
+    margin-top: 60px;
+  }
+  h3{
+    font-size: 18px;
+    margin-top: 60px;
+    color: #F5F5F5;
+    opacity: 0.6;
+    text-transform: uppercase;
+  }
+  ul{
+    list-style: none;
+    a{
+      display: inline-block;
+      text-decoration: none;
+      color: #F5F5F5;
+      padding: 7px 0px;
+      margin: 1px 0px;
+
+    }
+  }
+  &__top{
+    display: flex;
+    gap: 150px;
+    padding: 20px 0px 100px;
+    border-bottom: 2px solid #424242;
+    &-nav{
+      ul{
+        margin-top: 125px;
+      }
+    }
+    &-nav_first{
+      ul{
+        margin-top: 40px;
+      }
+    }
+  }
+  &__main{
+    display: flex;
+    justify-content: space-between;
+    &-left{
+      display: flex;
+      gap: 90px;
+    }
+    &-right{
+      img{
+        display: inline-block;
+        margin-top: 40px;
+        margin-right: 16px;
+        opacity: 0.6;
+      }
+
+    }
+  }
+}
+// End Footer
