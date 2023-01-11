@@ -572,6 +572,7 @@ button {
 .footer{
   background-color: black;
   color: #fff;
+  padding-bottom: 80px;
   h2{
     font-size: 22px;
     margin-top: 60px;
@@ -591,7 +592,6 @@ button {
       color: #F5F5F5;
       padding: 7px 0px;
       margin: 1px 0px;
-
     }
   }
   &__top{
@@ -613,6 +613,8 @@ button {
   &__main{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 60px;
+    border-bottom: 2px solid #424242;
     &-left{
       display: flex;
       gap: 90px;
@@ -624,7 +626,53 @@ button {
         margin-right: 16px;
         opacity: 0.6;
       }
-
+      h4{
+        font-size: 18px;
+        color: #BBBBBB;
+        margin-top: 40px;
+      }
+      form{
+        margin-top: 45px;
+        input{
+          position: relative;
+          background: #424242;
+          border-radius: 8px;
+          border: none;
+          outline: none;
+          padding: 14px 0px 14px 40px;
+          font-size: 18px;
+        }
+        img{
+          position: absolute;
+          top: 916vh;
+          left: 1068px;
+          z-index: 9;
+        }
+        button{
+          display: inline-block;
+          background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+          box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24), 0px 14px 32px rgba(255, 178, 14, 0.29);
+          border-radius: 8px;
+          padding: 16px 30px;
+          color: white;
+        }
+      }
+    }
+  }
+  &__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    p{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #F5F5F5;
+      font-size: 15px;
+      font-weight: 400;
+      span{
+        font-weight: 700;
+      }
     }
   }
 }
